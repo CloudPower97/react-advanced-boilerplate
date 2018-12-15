@@ -1,0 +1,15 @@
+@value blue: #1565C0;
+@value orange: #FF9800;
+@value green: #4CAF50;
+@value purple: #9C27B0;
+
+:root {
+  --blue: blue;
+  --blue-gradient: linear-gradient(to right, blue, ease-out, color(blue tint(15%)));
+  --orange: orange;
+  --orange-gradient: linear-gradient(to right, orange, ease-out, color(orange tint(20%)));
+  --green: green;
+  --green-gradient: linear-gradient(to right, green, ease-out, color(green tint(20%)));
+  --purple: purple;
+  --purple-gradient: linear-gradient(to right, purple, ease-out, color(purple tint(20%)));
+}

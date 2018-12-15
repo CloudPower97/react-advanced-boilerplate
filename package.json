@@ -1,6 +1,6 @@
 {
   "name": "react-advanced-boilerplate",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "An advanced React boilerplate with PostCSS, Eslint, StyleLint, a release manager, prettier, Storybook and internazionalization out of the box",
   "homepage": "https://github.com/CloudPower97/react-advanced-boilerplate",
   "repository": {

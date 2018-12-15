@@ -1,3 +1,4 @@
+/* eslint-disable */
 const path = require('path')
 const { whenProd, POSTCSS_MODES, paths } = require('@craco/craco')
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
@@ -102,6 +103,7 @@ module.exports = function() {
           '^vendor(.*)$': '<rootDir>/src/vendor$1',
         },
         moduleDirectories: ['node_modules', 'src'],
+        testPathIgnorePatterns: ['<rootDir>/cypress/', '<rootDir>/node_modules/'],
       },
     },
   }

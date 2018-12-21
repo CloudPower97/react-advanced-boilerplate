@@ -9,6 +9,7 @@ const imageminPngquant = require('imagemin-pngquant')
 const imageminZopfli = require('imagemin-zopfli')
 const imageminGiflossy = require('imagemin-giflossy')
 const imageminWebp = require('imagemin-webp')
+const HtmlCriticalPlugin = require('html-critical-webpack-plugin')
 
 // TODO: It's not working as of now! :(
 const DirectoryNamedWebpackPlugin = require('directory-named-webpack-plugin')
@@ -73,6 +74,17 @@ module.exports = function() {
                 ],
                 svgo: {
                   removeViewBox: false,
+                },
+              }),
+              new HtmlCriticalPlugin({
+                base: path.join(path.resolve(__dirname), 'build/'),
+                src: 'index.html',
+                dest: 'index.html',
+                inline: true,
+                minify: true,
+                extract: true,
+                penthouse: {
+                  blockJSRequests: false,
                 },
               }),
               new BundleAnalyzerPlugin(),

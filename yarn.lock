@@ -13979,6 +13979,14 @@ postcss-pseudo-content-insert@^0.3.0:
   dependencies:
     postcss "^5.0.2"
 
+postcss-pxtorem@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/postcss-pxtorem/-/postcss-pxtorem-4.0.1.tgz#9c64d0efe4885473cc1cb0305c6ffc3ebb45b1cd"
+  integrity sha1-nGTQ7+SIVHPMHLAwXG/8PrtFsc0=
+  dependencies:
+    object-assign "^4.1.0"
+    postcss "^5.2.10"
+
 postcss-reduce-initial@^4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/postcss-reduce-initial/-/postcss-reduce-initial-4.0.2.tgz#bac8e325d67510ee01fa460676dc8ea9e3b40f15"
@@ -14164,7 +14172,7 @@ postcss@^4.1.16:
     js-base64 "~2.1.8"
     source-map "~0.4.2"
 
-postcss@^5.0.0, postcss@^5.0.2, postcss@^5.0.4:
+postcss@^5.0.0, postcss@^5.0.2, postcss@^5.0.4, postcss@^5.2.10:
   version "5.2.18"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-5.2.18.tgz#badfa1497d46244f6390f58b319830d9107853c5"
   integrity sha512-zrUjRRe1bpXKsX1qAJNJjqZViErVuyEkMTRrwu4ud4sbTtIBRmtaYDrHmcGgmrbsW3MHfmtIf+vJumgQn+PrXg==

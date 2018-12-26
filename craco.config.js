@@ -10,9 +10,6 @@ const imageminZopfli = require('imagemin-zopfli')
 const imageminGiflossy = require('imagemin-giflossy')
 const imageminWebp = require('imagemin-webp')
 
-// TODO: It's not working as of now! :(
-const DirectoryNamedWebpackPlugin = require('directory-named-webpack-plugin')
-
 const { NODE_ENV } = process.env
 
 module.exports = function() {
@@ -77,9 +74,6 @@ module.exports = function() {
               }),
               new BundleAnalyzerPlugin(),
             ],
-      resolve: {
-        plugins: [new DirectoryNamedWebpackPlugin()],
-      },
       alias: {
         components: path.join(paths.appSrc, 'components'),
         containers: path.join(paths.appSrc, 'containers'),

@@ -112,6 +112,7 @@
     "eslint-plugin-jest": "^22.1.2",
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-prettier": "^3.0.0",
+    "html-critical-webpack-plugin": "^2.1.0",
     "husky": "^1.2.1",
     "imagemin-giflossy": "^5.1.10",
     "imagemin-jpeg-recompress": "^6.0.0",

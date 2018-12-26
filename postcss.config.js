@@ -33,6 +33,7 @@ module.exports = {
       },
       importFrom: ['src/style/selectors.css', 'src/style/colors.css'],
     }),
+    require('postcss-pxtorem'),
     require('cssnano')({
       preset: 'default',
     }),

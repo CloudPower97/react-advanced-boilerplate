@@ -25,7 +25,7 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module',
   },
-  plugins: ['react', 'import', 'jest', 'jsx-a11y', 'prettier'],
+  plugins: ['react', 'import', 'jest', 'jsx-a11y', 'prettier', 'cypress'],
   rules: {
     'prettier/prettier': ['error', prettierOptions],
     'arrow-body-style': [2, 'as-needed'],

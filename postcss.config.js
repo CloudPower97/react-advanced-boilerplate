@@ -22,6 +22,7 @@ module.exports = {
       foundries: ['google'],
     }),
     require('postcss-pseudo-content-insert'),
+    require('postcss-momentum-scrolling')(['scroll', 'auto', 'inherit']),
     require('postcss-will-change-transition'),
     require('postcss-preset-env')({
       autoprefixer: {

@@ -132,6 +132,7 @@
     "postcss-easing-gradients": "^3.0.1",
     "postcss-font-magician": "^2.2.1",
     "postcss-modules-values-replace": "^3.0.1",
+    "postcss-momentum-scrolling": "^1.6.12",
     "postcss-preset-env": "^6.5.0",
     "postcss-pseudo-content-insert": "^0.3.0",
     "postcss-will-change-transition": "^1.2.0",
@@ -157,10 +158,10 @@
     "not dead",
     "not op_mini all"
   ],
-    "jest": {
-      "testPathIgnorePatterns": [
-        "<rootDir>/cypress/",
-        "<rootDir>/node_modules/"
-      ]
-    }
+  "jest": {
+    "testPathIgnorePatterns": [
+      "<rootDir>/cypress/",
+      "<rootDir>/node_modules/"
+    ]
+  }
 }
